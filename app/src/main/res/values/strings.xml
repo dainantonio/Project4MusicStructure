@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project4MusicStructure</string>
+    <string name="genre">Genre</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="playlist">Playlist</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="album_art">Album Art</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+    <string name="black_is_beautiful">Black is beautiful</string>
+    <string name="chronix">Chronix</string>
+
+</resources>
