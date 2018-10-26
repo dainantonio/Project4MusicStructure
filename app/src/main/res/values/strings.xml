@@ -12,5 +12,7 @@
     <string name="back">back</string>
     <string name="black_is_beautiful">Black is beautiful</string>
     <string name="chronix">Chronix</string>
+    <string name="_60_sec">60 sec</string>
+    <string name="chronology">Chronology</string>
 
 </resources>

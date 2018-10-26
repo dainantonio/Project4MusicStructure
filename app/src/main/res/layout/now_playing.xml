@@ -14,13 +14,14 @@
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:textStyle="italic"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/albumNameView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chronology"
+        android:text="@string/chronology"
         android:textColor="#ff7aff24"
         android:textSize="35sp"
         android:textStyle="italic"
@@ -28,12 +29,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="328dp"
-        android:layout_height="277dp"
+        android:layout_width="293dp"
+        android:layout_height="218dp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
-        android:src="@drawable/chronology_imageart"
-        android:contentDescription="@string/album_art" />
+        android:contentDescription="@string/album_art"
+        android:src="@drawable/chronology_imageart" />
 
     <TextView
         android:id="@+id/seekBarTimer"
@@ -42,7 +43,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:paddingTop="30dp"
         android:layout_gravity="center"
-        android:text="60 sec"/>
+        android:text="@string/_60_sec"/>
 
     <SeekBar
         android:id="@+id/seekBar"
@@ -55,7 +56,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:paddingBottom="10dp">
 
 
         <Button
@@ -63,7 +65,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/back" />
+            android:text="@string/back"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/pauseButton"
@@ -79,7 +82,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/next"/>
+            android:text="@string/next"
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
